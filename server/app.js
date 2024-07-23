@@ -21,7 +21,7 @@ const sample =require ('./models/schema.js')
 
 
 mongoose.connect(
-    "mongodb://mongodb:27017/certiapp_React"
+    "mongodb://mongodb:27017/certiapp_docker"
 );
 
 const database=mongoose.connection;
